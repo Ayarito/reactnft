@@ -32,7 +32,7 @@ const Main = () => {
     return (
         <section id={'first'}>
         <div className={'container'}>
-            <h1>NFT for you</h1>
+            <h1>NFT for you and me</h1>
             <div className="row">
                 {!loading?items:<CircularProgress/>}
             </div>
