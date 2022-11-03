@@ -30,7 +30,7 @@ const Details = () => {
 
     return (
         <div className='container'>
-            <div className="row">
+            <div className="row details__row">
                 {!loading?<DetailsArticle
                     detailsState={detailsState}
                     navigateToMain={navigateToMain}

@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button} from "@mui/material";
 
 const DetailsArticle = ({detailsState,navigateToMain}) => {
     return (
@@ -12,6 +13,9 @@ const DetailsArticle = ({detailsState,navigateToMain}) => {
             <div className="col-6">
                 <div className="details__box">
                     <p>{detailsState.name}</p>
+                    <Button
+                        onClick={navigateToMain}
+                        color="secondary">back to main</Button>
                 </div>
             </div>
 
