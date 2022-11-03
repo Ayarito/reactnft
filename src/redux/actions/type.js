@@ -1,0 +1,2 @@
+export const MAIN_STATE = 'MAIN_STATE'
+export const DETAILS_STATE = 'DETAILS_STATE'
