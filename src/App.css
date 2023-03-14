@@ -3,10 +3,10 @@ body{
 }
 a {
     text-decoration: none;
-    color: limegreen;
+    color: hotpink;
     font-family: monospace;
     font-size: 20px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-align: center;
     text-transform: lowercase;
 }
@@ -18,7 +18,7 @@ a {
 }
 
 section{
-    padding:50px 0;
+    padding: 0 0 50px;
 }
 
 .container{
@@ -39,9 +39,9 @@ section{
 }
 
 .col-6{
-    width:50%;
+    width: 50%;
     padding:0 15px;
-}
+   }
 
 h1{
     text-align: center;
@@ -51,7 +51,7 @@ h1{
     padding: 0 0 40px;
 }
 .image__box {
-    border: 1px solid palevioletred;
+    border: 1px solid cornflowerblue;
     padding: 20px;
     border-radius: 20px;
     display: flex;
@@ -61,6 +61,15 @@ h1{
     row-gap: 25px;
     height: 400px;
 }
+
+.image__box:hover{
+    scale: 1.1;
+    transition: 0.4s ease;
+    background-color: plum;
+    border: 1px solid black;
+}
+
+
 .image__box img{
     width: 100%;
     height: 250px;
@@ -111,17 +120,6 @@ h1{
 }
 
 
-.details__box{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 2px solid palevioletred;
-    border-radius: 20px;
-    height: 600px;
-
-}
-
 .details__box img{
     width: 100%;
     height: 500px;
@@ -135,4 +133,8 @@ h1{
     text-transform: uppercase;
     text-align: center;
     color: lavender;
+}
+
+.details__box button.MuiButtonBase-root{
+    color: cornflowerblue;
 }

@@ -15,7 +15,7 @@ const DetailsArticle = ({detailsState,navigateToMain}) => {
                     <p>{detailsState.name}</p>
                     <Button
                         onClick={navigateToMain}
-                        color="secondary">back to main</Button>
+                        >back to main</Button>
                 </div>
             </div>
 

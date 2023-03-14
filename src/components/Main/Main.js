@@ -8,12 +8,10 @@ import {getMain} from "../../redux/actions/actions";
 const Main = () => {
 
     const dispatch = useDispatch()
+
     const {mainState} = useSelector(state=>state.main)
 
     const [loading,setLoading] = useState(true)
-
-    console.log(mainState)
-
 
     useEffect(() => {
        dispatch(getMain(setLoading))
@@ -32,7 +30,6 @@ const Main = () => {
     return (
         <section id={'first'}>
         <div className={'container'}>
-            <h1>NFT for you and me</h1>
             <div className="row">
                 {!loading?items:<CircularProgress/>}
             </div>
