@@ -5,6 +5,7 @@ import "./media.css"
 import Main from "./components/Main/Main";
 import Details from "./components/Details/Details";
 import FirstDisplay from "./components/FirstDisplay/FirstDisplay";
+import About from "./components/About/About";
 
 
 const App = () => {
@@ -12,7 +13,7 @@ const App = () => {
     <>
  
       <Routes>
-        <Route path="/" element={<>     <FirstDisplay /><Main /></> } />
+        <Route path="/" element={<><FirstDisplay/> <About/> <Main /></> } />
         <Route path="/details/:address/:token" element={<Details/>} />
       </Routes>
     </>

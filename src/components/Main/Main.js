@@ -3,6 +3,7 @@ import Render from "./Render/Render";
 import CircularProgress from '@mui/material/CircularProgress';
 import {useSelector,useDispatch} from "react-redux";
 import {getMain} from "../../redux/actions/actions";
+import './Main.css'
 
 
 const Main = () => {

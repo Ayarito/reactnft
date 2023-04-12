@@ -30,7 +30,7 @@ const FirstDisplay = () => {
                 alt="loading..."
               />
             </motion.div>
-            <motion.p variants={textAnimation} className='title__FirstDisplay'>NFT Fun</motion.p>
+            <motion.p variants={textAnimation} className='title__FirstDisplay'>NFT Fun?</motion.p>
             <motion.p variants={textAnimation}>for</motion.p>
           </div>
         </div>

@@ -12,10 +12,7 @@ const Details = () => {
     const dispatch = useDispatch()
     const {detailsState} = useSelector(state=>state.details)
 
-
     const navigate=useNavigate()
-
-    console.log(detailsState)
 
     const navigateToMain = () =>{
         navigate('/')

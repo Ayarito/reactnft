@@ -1,0 +1,15 @@
+#about{
+   padding: 10px;
+}
+
+.about{
+   font-family: 'Erica One';
+   font-size: 120px;
+   color: #1da1f2;
+}
+.about__Text{
+   color: aliceblue;
+   font-family: 'monospace';
+   font-size: 2rem;
+   padding: 40px 0;
+}
